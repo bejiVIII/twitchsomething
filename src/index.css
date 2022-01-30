@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Undertale;
+  src: url("fonts/determination1.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Undertale;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
+header {
+  color: white;
+  width: 100%;
+  padding: 0.25em;
+  place-content: center;
+  text-align: center;
+  top: 0px;
+  background-color: rgb(100, 65, 164);
+}
+
+main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  overflow-y: auto;
+  background-color: #24272b;
+}
+
+footer {
+  background-color: rgb(100, 65, 164);
+  color: white;
+  width: 100%;
+  padding: 0.25em;
+  place-content: center;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+}
+
+form {
+  position: absolute;
+  top: 10px;
+}
